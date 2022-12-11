@@ -76,16 +76,17 @@ function underlineText(){
     }
 }
 
-function foil() {
-    document.body.style.fontWeight = "bold";
-  
-  }
-  
-  function koil() {
-    document.body.style.fontStyle = "italic";
-  
-  }
-  
-  function noil() {
-    document.body.style.textDecoration = "underline";
-  }
+$(document).ready(function(){
+    $('.boldText').click(function(){
+       $('.container').toggleClass("bold");
+    });
+    $('.italicText').click(function(){
+      $('.container').toggleClass("italic");
+    });
+    $('.underlineText').click(function(){
+      $('.container').toggleClass("underline");
+    });
+    
+    
+    
+    });
