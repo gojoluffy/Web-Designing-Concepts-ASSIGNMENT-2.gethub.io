@@ -162,4 +162,23 @@
       }
     }   
 
-    
+    /* For dynamically bold, italic and underline words and phrases based on user actions.*/
+
+    #editor {
+        height: 100px;
+        width: auto;
+        margin: 10px auto 0;
+      }
+      
+      fieldset {
+        margin: 2px auto 15px;
+        width: auto;
+      }
+      
+      button {
+        size: 10px;
+        width: auto;
+        text-align: center;
+        padding: 1px 3px;
+        
+      }
