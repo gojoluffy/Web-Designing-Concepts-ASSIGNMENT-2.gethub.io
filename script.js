@@ -72,8 +72,8 @@ gsap.from("#card1, #card2, #card3",{
     scale:0.8,
     y: 50,
     opacity: 0,
-    duration: 0.3,
-    stagger: 0.1,
+    duration: 0.5,
+    stagger: 0.2,
     scrollTrigger: {
         trigger: "#cards-container",
         scroller: "body",
